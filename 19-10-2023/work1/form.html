@@ -15,21 +15,28 @@
         }
         
         header {
-          background-color: black;
+          background-color: rgb(216, 150, 29);
           padding: 20px;
           text-align: left;
           font-size: 20px;
           color: white;
         }
+
         footer {
-  background-color: #444141;
-  padding: 10px;
+  background-color: rgb(216, 150, 29);
+  padding: 20px;
   text-align: center;
   color: white;
 }
+form {
+  background-color: rgb(28, 28, 39);
+}
+label {
+  color:yellow
+}
+
     </style>
     
-    </form>
 </head>
 <body>
     <header>
@@ -49,6 +56,9 @@
 
         <label for="radio">Male</label>
         <input type="radio" name="myradio" id="radio">
+
+        <label for="textId">Country :</label>
+        <input type="text" name="mytext" id="textId" value="Country">
         
         <label for="textId">E-mail</label>
         <input type="text" name="mytext" id="textId" value="Enter E-mail">
@@ -64,9 +74,12 @@
 
         <label for="checkboxId">I Agree to the Terms of use</label>
         <input type="checkbox" id="checkboxId" value="true">
+    </form>
 
         <footer>
             <p></p>
+    <span>Submit</span>
+    <span>Cancel</span>
           </footer>
         
 
