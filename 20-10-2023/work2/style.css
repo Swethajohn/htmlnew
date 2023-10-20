@@ -1,0 +1,21 @@
+body{
+  background-color: rgb(1, 1, 19);
+}
+
+div {
+    background-color: #0f1111;
+    width: 1440px;
+    border: 15px solid white;
+    padding: 15px;
+    margin: 40px;
+    border-width: 5px;
+    color: white;
+    height: 60px;
+    font-size: 25px;
+    }
+  
+  a,label {
+     margin-left: 200px;
+     
+  } 
+
