@@ -35,6 +35,7 @@ label {
   color:yellow
 }
 
+
     </style>
     
 </head>
@@ -42,15 +43,21 @@ label {
     <header>
         <h>Sign Up</h>
     </header>
+    
 
     <form action="action.js">
         <label for="textId">First Name :</label>
-        <input type="text" name="mytext" id="textId" value="Enter First Name">
+        <input type="text" name="mytext" id="textId" placeholder="Enter First Name">
 
     
         <label for="textId">Last Name :</label>
-        <input type="text" name="mytext" id="textId" value="Enter Last Name">
-    
+        <input type="text" name="mytext" id="textId" placeholder="Enter Last Name">
+        <select>
+
+        <label for="Date of birth">Date of Birth</label>
+        
+       <option value="Date">Date</option>
+        </select>
         <label for="radio">Gender</label>
         <input type="radio" name="myradio" id="radio">
 
@@ -58,13 +65,13 @@ label {
         <input type="radio" name="myradio" id="radio">
 
         <label for="textId">Country :</label>
-        <input type="text" name="mytext" id="textId" value="Country">
+        <input type="text" name="mytext" id="textId" placeholder="Country">
         
         <label for="textId">E-mail</label>
-        <input type="text" name="mytext" id="textId" value="Enter E-mail">
+        <input type="text" name="mytext" id="textId" placeholder="Enter E-mail">
 
         <label for="textId">Phone</label>
-        <input type="text" name="mytext" id="textId" value="Enter Phone">
+        <input type="text" name="mytext" id="textId" placeholder="Enter Phone">
 
         <label for="textId">Password</label>
         <input type="text" name="mytext" id="textId">
@@ -78,8 +85,9 @@ label {
 
         <footer>
             <p></p>
-    <span>Submit</span>
-    <span>Cancel</span>
+            <input type="button" value="Submit" style="background-color: green; color: white;">
+            <input type="button" value="Cancel" style="background-color: red; color: white;">
+   
           </footer>
         
 
