@@ -1,0 +1,14 @@
+element.style{
+    text-align: left;
+}
+
+
+div {
+    background-color: rgb(14, 48, 81);
+    color: #FFFFFF;
+    padding: 9px 0px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
