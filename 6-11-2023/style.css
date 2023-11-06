@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ nav ul li{
+    margin:1rem;
+ }
+
+ section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:1rem;
+    padding:1rem;
+ }
+
+ nav::before{
+    background: url(/htmlnew/6-11-2023/images/istockphoto-1328689113-1024x1024.jpg);
+    content:"";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index:-1;
+
+ }
+
+ section h1{
+    padding: 0;
+ }
+  section p{
+    text-align: justify;
+  }

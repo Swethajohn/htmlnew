@@ -98,6 +98,7 @@ p{
 
 .part-2{
     background-image: url(/htmlnew/4-11-2023/images/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg);
+
 }
 
 .text-part-2{
@@ -105,41 +106,14 @@ p{
 }
 
 .part-3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
     background-image: url(/htmlnew/4-11-2023/images/macbook.jpg);
     width: 2210px;
     height: 420px;
-    
-    
 }
-
-.part-4{
-    display: flex;
-    width: 100%;
-}
-
-.part-4-1{
-    height: 60vh;
-    width: 50%;
-    background-repeat: no-repeat;
-    background-image: url(/htmlnew/4-11-2023/images/4-1.jpg);
-}
-
-.part-4-2{
-    height: 60vh;
-    width: 50%;
-    background-repeat: no-repeat;
-    background-image: url(/htmlnew/4-11-2023/images/4-2.jpg);
-}
-
-.part-4 .text-part-1{
-    color: #333;
-}
-
-.part-4 .text-part-1 p{
-    font-size: 1vw;
-}
-
-
-
-
 
