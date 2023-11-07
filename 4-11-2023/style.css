@@ -69,6 +69,7 @@ p{
     gap: 1vh;
     top: 10%;
     color: #fff;
+    
 }
 
 .text-part-1 h1{
@@ -106,14 +107,13 @@ p{
 }
 
 .part-3{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 70vh;
+    
     background-image: url(/htmlnew/4-11-2023/images/macbook.jpg);
     width: 2210px;
     height: 420px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
 }
+
 
