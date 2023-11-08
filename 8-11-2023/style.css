@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    max-width: 70vw;
+    min-height: 60vh;
+    margin:auto;
+    background-color: aquamarine;
+    border:2px solid red;
+}
+
+.box{
+    max-width:200px;
+    min-height:200px;
+    background-color: bisque;
+    margin: 8px;
+      /* box-shadow: offset-x offset-y blur-radius spread radius */
+    box-shadow: 10px 20px red;
+    box-shadow: 10px 20px 35px blue;
+    box-shadow: 10px 20px 35px 10px green;
+    box-shadow:inset 10px 20px 35px 10px green;
+}
+
+h1{
+    /* text-shadow: offset-x offset-y blur-radius spread radius */
+    text-shadow: 10px 20px blue;
+    text-shadow: 10px 20px 25px yellow;
+
+}
