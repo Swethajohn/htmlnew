@@ -116,4 +116,10 @@ p{
     position: absolute;
 }
 
+footer {
+    font-size:12px;
+    line-height:1.33337;
+    font-weight:400;
+    letter-spacing: -.01rem;
 
+}
