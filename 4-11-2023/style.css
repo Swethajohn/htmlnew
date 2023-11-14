@@ -108,18 +108,317 @@ p{
 
 .part-3{
     
-    background-image: url(/htmlnew/4-11-2023/images/macbook.jpg);
-    width: 2210px;
-    height: 420px;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
+    background-image: url(/htmlnew/4-11-2023/images/image3.jpg);
 }
 
-footer {
+.part-4{
+    display: flex;
+    width: 100%;
+}
+.part-4-1,.part-4-2{
+    height: 80vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(/htmlnew/4-11-2023/images/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
+}
+
+.part-4-2{
+    height: 80vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(/htmlnew/4-11-2023/images/resp1.jpg);
+}
+.part-5{
+    display: flex;
+    width: 100%;
+}
+.part-5-1,.part-5-2{
+    height: 80vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(/htmlnew/4-11-2023/images/tile__cauwwcyyn9hy_large.jpg)
+}
+.part-5-2{
+    height: 80vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(/htmlnew/4-11-2023/images/promo_iphone_tradein__bugw15ka691e_large.jpg);
+}
+.part-5 p{
+    font-size: 1rem;
+    color: rgb(93, 92, 92);
+}
+
+.slider-part{
+    padding: 2vh 0vw;
+    width: 100%;
+    height: 70vh;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide {
+    width:  90%;
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-1{
+    background-image: url(/htmlnew/4-11-2023/images/2.jpg);
+}
+.swiper-2{
+    background-image: url(/htmlnew/4-11-2023/images/3.jpg);
+}
+.swiper-3{
+    background-image: url(/htmlnew/4-11-2023/images/4.jpg);
+}
+.swiper-4{
+    background-image: url(/htmlnew/4-11-2023/images/5.jpg);
+}
+.swiper-5{
+    background-image: url(/htmlnew/4-11-2023/images/6.jpg);
+}
+
+
+
+
+.footer-note {
     font-size:12px;
     line-height:1.33337;
     font-weight:400;
     letter-spacing: -.01rem;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: justify;
+    margin-left: 118px;
+    margin-right: 60px;
 
 }
+.foot1{
+    border-top: 2px solid grey;
+    margin-left: 118px;
+    margin-right: 60px;
+    margin-top: 50px;
+    height: 10px;
+    display: flex;
+  }
+  .footicon i{
+    padding-top: 40px;
+    font-size: 14px;
+    color: grey;
+    padding-left: 0px;
+    padding-right: 9px;
+    
+  }
+  .footp{
+    padding-top: 40px;
+    font-size: 14px;
+    color: grey;
+  }
+  /* foot main  */
+  .footmain1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-right: 40px;
+  }
+  .foota h5{
+    padding-top: 60px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+  .foota a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+
+  .footc a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+  .footc h5{
+    padding-top: 60px;
+    padding-left: 80px;
+    font-weight: 600;
+  
+  }
+  .footd a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+  .footd h5{
+    padding-top: 60px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+
+  .foote a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+  .foote h5{
+    padding-top: 60px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+  .footf a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+  .footf h5{
+    padding-top: 60px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+
+    .footg h5{
+    padding-top: 15px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+  .footg a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+
+  .footh h5{
+    padding-top: 15px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+  .footh a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+
+  .footi h5{
+    padding-top: 19px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+  .footi a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+  .footj h5{
+    padding-top: 19px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+  .footj a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+  .footk h5{
+    padding-top: 19px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+  .footk a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+  .h5footer{
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 117px;
+    color: grey;
+    font-weight: 400;
+  }
+  .line{
+    border-top:2px solid grey;
+    margin-left: 117px;
+    margin-right: 60px;
+    margin-top: 5px;
+  }
+  .divlast h5{
+    font-size: 12px;
+    color: grey;
+    margin-right: 35px;
+  }
+  .divlast{
+    margin-top: 15px;
+    display: flex;
+    margin-left: 118px;
+  }
+  .divlast a{
+    font-size: 12px;
+    color: grey;
+    margin-left: 25px;
+  }
+  .divlast p{
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .footmain1 a:hover{
+  text-decoration: underline;
+  }
+  .divlast a:hover{
+    text-decoration: underline;
+  }
+   .input-search-bar{
+    margin-left: 15px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    padding-left: 5px;
+  }
+ 
